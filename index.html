@@ -3,62 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aayush — B.Tech Data Science & AI student, Python developer and aspiring AI engineer.">
+  <meta name="description" content="Aayush — B.Tech Data Science & AI student building practical software, data and automation projects.">
   <title>Aayush | Data Science & AI</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Arial, sans-serif; line-height: 1.6; color: #1f2937; background: #f7f8fa; }
-    nav { padding: 18px 8%; background: #111827; }
-    nav a { color: #fff; text-decoration: none; font-weight: 700; }
-    main { max-width: 1000px; margin: auto; padding: 70px 8%; }
-    .hero { padding: 50px 0; }
-    .tag { color: #4f46e5; font-weight: 700; margin-bottom: 12px; }
-    h1 { font-size: clamp(2.4rem, 6vw, 4.5rem); line-height: 1.05; margin-bottom: 18px; }
-    h2 { margin: 55px 0 20px; }
-    .hero p { max-width: 700px; font-size: 1.15rem; color: #4b5563; }
-    .links { margin-top: 25px; display: flex; gap: 18px; flex-wrap: wrap; }
-    .links a { color: #4f46e5; font-weight: 700; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
-    .card { background: #fff; padding: 24px; border-radius: 14px; border: 1px solid #e5e7eb; }
-    .card h3 { margin-bottom: 8px; }
-    .card a { color: #4f46e5; text-decoration: none; font-weight: 700; }
-    .skills span { display: inline-block; padding: 8px 12px; margin: 5px; background: #fff; border: 1px solid #e5e7eb; border-radius: 999px; }
-    footer { text-align: center; padding: 30px; color: #6b7280; }
+    *{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,sans-serif;line-height:1.6;color:#1f2937;background:#f7f8fa}nav{padding:18px 8%;background:#111827;display:flex;justify-content:space-between}nav a{color:#fff;text-decoration:none;font-weight:700}main{max-width:1100px;margin:auto;padding:70px 8%}.hero{padding:35px 0}.tag{color:#4f46e5;font-weight:700;margin-bottom:12px}h1{font-size:clamp(2.4rem,6vw,4.5rem);line-height:1.05;margin-bottom:18px}h2{margin:55px 0 20px}.hero p{max-width:760px;font-size:1.15rem;color:#4b5563}.links{margin-top:25px;display:flex;gap:18px;flex-wrap:wrap}.links a,.card a{color:#4f46e5;font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}.card{background:#fff;padding:24px;border-radius:14px;border:1px solid #e5e7eb;transition:.15s}.card:hover{transform:translateY(-3px);box-shadow:0 10px 25px #0000000d}.card h3{margin-bottom:8px}.card p{color:#4b5563;margin-bottom:12px}.skills span{display:inline-block;padding:8px 12px;margin:5px;background:#fff;border:1px solid #e5e7eb;border-radius:999px}footer{text-align:center;padding:30px;color:#6b7280}@media(max-width:600px){main{padding-top:45px}.hero{padding-top:10px}}
   </style>
 </head>
 <body>
-  <nav><a href="index.html">Aayush.dev</a></nav>
+  <nav><a href="index.html">Aayush.dev</a><a href="boq-rate-engine.html">BOQ Engine ↗</a></nav>
   <main>
     <section class="hero">
       <div class="tag">B.Tech Data Science & AI</div>
       <h1>Hi, I'm Aayush 👋</h1>
-      <p>I build practical projects with Python, data analysis and web technologies while growing toward a career in Data Science and AI Engineering.</p>
-      <div class="links">
-        <a href="https://github.com/aayush-2324" target="_blank" rel="noopener">GitHub ↗</a>
-        <a href="https://www.linkedin.com/in/aayush-061a99390/" target="_blank" rel="noopener">LinkedIn ↗</a>
-      </div>
+      <p>I build practical software, data-analysis tools and automation prototypes while growing toward a career in Data Science and AI Engineering.</p>
+      <div class="links"><a href="https://github.com/aayush-2324" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/aayush-061a99390/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
     </section>
-
-    <section>
-      <h2>Featured Projects</h2>
-      <div class="grid">
-        <div class="card"><h3>🔐 Smart Password Generator</h3><p>Secure random password generation with Python.</p><a href="https://github.com/aayush-2324/password-generator">View project →</a></div>
-        <div class="card"><h3>📊 Titanic Data Analysis</h3><p>Exploratory data analysis project using Python data tools.</p><a href="https://github.com/aayush-2324/Titanic-data-analysis">View project →</a></div>
-        <div class="card"><h3>🐍 Python Practice</h3><p>Python learning and programming practice.</p><a href="https://github.com/aayush-2324/Aayush-python">View project →</a></div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>Python</span><span>Java</span><span>Pandas</span><span>Matplotlib</span><span>HTML</span><span>CSS</span><span>SQL</span><span>Git & GitHub</span>
-      </div>
-    </section>
-
-    <section>
-      <h2>Currently Learning</h2>
-      <p>Data Structures & Algorithms · Machine Learning · Advanced Python · Full-Stack Development · CI/CD</p>
-    </section>
+    <section><h2>Featured Projects</h2><div class="grid">
+      <div class="card"><h3>🏗️ BOQ Rate Engine</h3><p>Construction-estimation prototype for uploading a BOQ, comparing CPWD/State/Market/Vendor rates, calculating a weighted recommendation and exporting XLSX.</p><a href="boq-rate-engine.html">Open live prototype →</a></div>
+      <div class="card"><h3>📊 Titanic Data Analysis</h3><p>Exploratory data analysis project using Python data tools.</p><a href="https://github.com/aayush-2324/Titanic-data-analysis">View project →</a></div>
+      <div class="card"><h3>🔐 Smart Password Generator</h3><p>Secure random password generation with Python.</p><a href="https://github.com/aayush-2324/password-generator">View project →</a></div>
+      <div class="card"><h3>🐍 Python Practice</h3><p>Python learning and programming practice.</p><a href="https://github.com/aayush-2324/Aayush-python">View project →</a></div>
+    </div></section>
+    <section><h2>Skills</h2><div class="skills"><span>Python</span><span>Java</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span><span>Git & GitHub</span></div></section>
+    <section><h2>Currently Learning</h2><p>Data Structures & Algorithms · Machine Learning · Advanced Python · Full-Stack Development · CI/CD</p></section>
   </main>
   <footer>© 2026 Aayush · Built with HTML & CSS</footer>
 </body>
